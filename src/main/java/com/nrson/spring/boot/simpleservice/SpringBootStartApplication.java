@@ -25,12 +25,12 @@ public class SpringBootStartApplication {
 	 * 
 	 * GetMapping과 RequestMapping 차이점 description : GetMapping은
 	 * RequestMapping(method = RequestMethod.GET)의 단축키 역할을 하는 합성 주석
-	 * 
 	 * @return String
+	 * 
 	 */
 	@GetMapping("/helloworld")
 	public String HelloWorld() {
-		return "Hello world!!!1234";
+		return "Hello world!!!";
 	}
 
 	@RequestMapping("/welcome")
