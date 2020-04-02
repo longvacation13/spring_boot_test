@@ -22,7 +22,7 @@ public class GetAPIController {
 	{			
 		Map<String, String> map = new HashMap<String, String>(); 
 		map.put("name", "111"); 
-		map.put("age", "111");
+		map.put("age" , "111");
 		return map;
 	}
 }
